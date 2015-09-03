@@ -44,5 +44,10 @@ module MRuby::CLI
     def test
       rake('test')
     end
+
+    def help
+      shell.say Description
+      super
+    end
   end
 end
