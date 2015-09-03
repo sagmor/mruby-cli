@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Seba Gamboa"]
   spec.email         = ["me@sagmor.com"]
 
-  spec.summary       = %q{MRuby helper command line utility.}
-  spec.description   = %q{MRuby helper command line utility.}
+  spec.summary       = %q{MRuby command line helper utility.}
+  spec.description   = %q{MRuby command line helper utility.}
   spec.homepage      = "https://github.com/sagmor/mruby-cli"
   spec.license       = "MIT"
 
