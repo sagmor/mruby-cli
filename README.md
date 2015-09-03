@@ -1,5 +1,7 @@
 # MRuby CLI
 
+[![Gem Version][gem-badge]][gem-url]
+
 This is a command line utility to ease development with MRuby
 
 ## Installation
@@ -20,4 +22,8 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/sagmor
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+The gem is available as open source under the terms of the [MIT License][license-url].
+
+[gem-url]: https://rubygems.org/gems/mruby-cli
+[gem-badge]: https://img.shields.io/gem/v/mruby-cli.svg
+[license-url]: http://opensource.org/licenses/MIT
