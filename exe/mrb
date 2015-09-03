@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'mruby/cli'
+
+MRuby::CLI::App.start(ARGV)
