@@ -10,17 +10,6 @@ module MRuby::CLI
     end
 
     def command
-      command = @options[:command]
-      command ||= if @options.fetch(:minirake,true)
-                    minirake
-                  else
-                    'rake'
-                  end
-
-      command
-    end
-
-    def minirake
       Source.path.join('minirake').to_s
     end
 

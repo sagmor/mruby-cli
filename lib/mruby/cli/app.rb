@@ -18,7 +18,7 @@ module MRuby::CLI
 
     desc "minirake [ARGS...]", "Execute MRuby's minirake"
     def minirake(*args)
-      Rake[args: args, minirake: true]
+      Rake[args: args]
     end
 
     desc "rake [COMMAND]", "Runs a rake command"
