@@ -52,13 +52,13 @@ module MRuby::CLI
       Version: #{VERSION}
     TEXT
 
-    def self.to_s
-      output = ""
-      # Colorize ASCII Art
-      output << ART.gsub(/^(.*)$/){|s| "\033[31m#{s}\033[0m" }
-      output << "\n"
-      output << TEXT
-      output << "\n"
+    def self.print(shell)
+      shell.say ""
+      ART.lines.each do |line|
+        shell.say "\033[31m#{line.chomp}\033[0m"
+      end
+      shell.say TEXT
+      shell.say ""
     end
   end
 end

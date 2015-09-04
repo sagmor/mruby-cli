@@ -46,7 +46,7 @@ module MRuby::CLI
     end
 
     def help
-      shell.say Description
+      Description.print(shell)
       super
     end
   end
