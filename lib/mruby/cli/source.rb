@@ -17,7 +17,7 @@ Error:
     def self.path
       require 'mruby/source'
 
-      MRuby::Source.path
+      MRuby::Source::ROOT
     rescue LoadError
       puts ERROR_MESSAGE
       exit 1
