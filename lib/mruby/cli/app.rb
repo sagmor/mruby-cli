@@ -52,7 +52,7 @@ module MRuby::CLI
       super
     end
 
-    desc 'generate', 'Generators'
+    desc 'generate TEMPLATE NAME', 'Generate a new project'
     subcommand 'generate', Commands::Generate
   end
 end
