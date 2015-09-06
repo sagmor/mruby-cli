@@ -3,18 +3,22 @@ module MRuby::CLI
     class Build < Thor::Group
       include Thor::Actions
 
-      argument :directory
+      argument :name
 
       def self.source_root
         File.expand_path('../build', __FILE__)
       end
 
       def generate_build_config
-        template('build_config.rb.erb', "#{directory}/buld_config.rb")
+        template('build_config.rb.erb', "#{name}/build_config.rb")
       end
 
       def generate_gemfile
-        template('gemfile.erb', "#{directory}/Gemfile")
+        template('gemfile.erb', "#{name}/Gemfile")
+      end
+
+      def generate_gitignore
+        template('gitignore.erb', "#{name}/.gitignore")
       end
     end
   end
