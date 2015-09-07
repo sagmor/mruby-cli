@@ -26,7 +26,7 @@ module MRuby::CLI
       Rake[{
         args: [
           '--rakefile',
-          Source.path.join('RakeFile').to_s
+          Source.path.join('Rakefile').to_s
         ] + Array(command),
         env: {
           'MRUBY_CONFIG' => options[:build_config],
