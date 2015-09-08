@@ -1,6 +1,7 @@
 # MRuby CLI
 
 [![Gem Version][gem-badge]][gem-url]
+[![Inline docs][docs-coverage-badge]][docs-coverage-url]
 
 This is a command line utility to ease development with MRuby
 
@@ -27,3 +28,5 @@ The gem is available as open source under the terms of the [MIT License][license
 [gem-url]: https://rubygems.org/gems/mruby-cli
 [gem-badge]: https://img.shields.io/gem/v/mruby-cli.svg
 [license-url]: http://opensource.org/licenses/MIT
+[docs-coverage-url]: http://inch-ci.org/github/sagmor/mruby-cli
+[docs-coverage-badge]: http://inch-ci.org/github/sagmor/mruby-cli.svg?branch=master&style=shields
