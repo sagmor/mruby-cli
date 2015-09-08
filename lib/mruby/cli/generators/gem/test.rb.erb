@@ -1,3 +1,5 @@
-assert('<%= module_name %> exists') do
-  assert_false <%= module_name %>.nil?
+describe <%= module_name %> do
+  it 'exists' do
+    expect(<%= module_name %>).not_to be_nil
+  end
 end

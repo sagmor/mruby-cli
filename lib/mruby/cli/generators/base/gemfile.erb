@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
 gem 'mruby-cli'
-gem 'mruby-source', github: 'sagmor/mruby', branch: 'gem'
+gem 'mruby-source', github: 'sagmor/mruby'
