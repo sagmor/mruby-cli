@@ -21,10 +21,6 @@ module MRuby::CLI
         template('../base/gitignore.erb', "#{path}/.gitignore")
       end
 
-      def generate_license
-        template('../base/license.txt.erb', "#{path}/LICENSE.txt")
-      end
-
       def name
         File.basename(path)
       end
