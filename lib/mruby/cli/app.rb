@@ -1,3 +1,5 @@
+require 'mruby/cli/commands'
+
 module MRuby::CLI
   class App < Thor
     class_option(:build_config, {
@@ -45,9 +47,12 @@ module MRuby::CLI
       rake('test')
     end
 
-    def help
+    def help(*args)
       Description.print(shell)
       super
     end
+
+    desc 'generate TEMPLATE NAME', 'Generate a new project'
+    subcommand 'generate', Commands::Generate
   end
 end
