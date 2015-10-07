@@ -8,7 +8,7 @@ Error:
 
       Add this to your Gemfile:
 
-          gem "mruby-source", github: 'sagmor/mruby', branch: 'gem'
+          gem "mruby-source", github: 'mruby/mruby'
 
       Run bundle install and re-run your last command
 
