@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
 require 'mruby/cli'
+require 'bundler/setup'
 
 MRuby::CLI::App.start(ARGV)
